@@ -104,7 +104,7 @@ test('getURLFromHtml invalid',()=>{
     `
     const inputBaseURL = "https://blog.boot.dev"
     const actual = getURLFromHtml(inputHTMLBody,inputBaseURL)
-    console.log(actual)
+    //console.log(actual)
     const expected = ["https://blog.boot.dev/path1/","https://blog.boot.dev/path2/"]
 
     expect(actual).toEqual(expected)

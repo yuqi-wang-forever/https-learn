@@ -37,7 +37,7 @@ async function crawlPage(baseURL,currentURL,pages){
         }
         return pages
     } catch(err) {
-        console.log(`error in fetch: ${err.message}, on page ${curentURL}`)
+        console.log(`error in fetch: ${err.message}, on page ${currentURL}`)
     }
 }
 
